@@ -2,4 +2,4 @@ Kata Roman Numbers - Números Romanos
 
 Excercise suggested by Sam
 
-Sargentogato, walking toward the code.
+Sargentogato and Ramon N , walking toward the code.
