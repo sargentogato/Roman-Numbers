@@ -21,4 +21,12 @@ describe("Roman number converter", () => {
 
     expect(result).toEqual("X");
   });
+
+  it("Convert 13 to roman number", () => {
+    const romanNumber = 13;
+
+    const result = add(romanNumber);
+
+    expect(result).toEqual("XIII");
+  });
 });
