@@ -1,9 +1,9 @@
-describe("String calculator", () => {
-  it("converts an empty string to 0", () => {
-    const emptyString = "";
+describe("Roman number converter", () => {
+  it("Convert 1 to roman number", () => {
+    const romanNumber = "I";
 
-    const result = add(emptyString);
+    const result = add(romanNumber);
 
-    expect(result).toEqual(0);
+    expect(result).toEqual("I");
   });
 });
