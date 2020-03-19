@@ -29,4 +29,32 @@ describe("Roman number converter", () => {
 
     expect(result).toEqual("XIII");
   });
+  it("Convert 100 to roman number", () => {
+    const romanNumber = 100;
+
+    const result = add(romanNumber);
+
+    expect(result).toEqual("C");
+  });
+  it("Convert 999 to roman number", () => {
+    const romanNumber = 999;
+
+    const result = add(romanNumber);
+
+    expect(result).toEqual("CMXCIX");
+  });
+  it("Convert 999 to roman number", () => {
+    const romanNumber = 999;
+
+    const result = add(romanNumber);
+
+    expect(result).toEqual("CMXCIX");
+  });
+  it("Convert roman numeber I to arabic number", () => {
+    const romanNumber = "I";
+
+    const result = add(romanNumber);
+
+    expect(result).toEqual(1);
+  });
 });
