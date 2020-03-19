@@ -8,7 +8,7 @@ describe("Roman number converter", () => {
   });
 
   it("Convert 5 to roman number", () => {
-    const romanNumber = 1;
+    const romanNumber = 5;
 
     const result = add(romanNumber);
 
